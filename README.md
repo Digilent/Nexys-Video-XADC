@@ -3,14 +3,14 @@ Nexys Video XADC Demo
   
 Description
 --------------
-This project is a Vivado demo using the Nexys Video's analog-to-digital converter ciruitry, and the OLED display written in Verilog. When programmed onto the board, voltage levels between 0 and 1 Volt are read off of the JXADC header. The OLED display shows the voltage difference between the selected channel's pins in volts. See the Nexys Video's [Reference Manual](https://reference.digilentinc.com/reference/programmable-logic/nexys-video/reference-manual) for more information about how the Artix 7 FPGA's XADC is connected to header JXADC.
+This project is a Vivado demo using the Nexys Video's analog-to-digital converter ciruitry, and the OLED display, written in Verilog. When programmed onto the board, voltage levels between 0 and 1 Volt are read off of the JXADC header. The OLED display shows the voltage difference between the appropriate channel's pins in volts. See the Nexys Video's [Reference Manual](https://reference.digilentinc.com/reference/programmable-logic/nexys-video/reference-manual) for more information about how the Artix 7 FPGA's XADC is connected to header JXADC.
 
-| XADC Channel | JXADC Pins             | 
--------------- | -----------------------| 
-| AD1          | JXADC1(P) / JXADC7(N)  | 
-| AD0          | JXADC2(P) / JXADC8(N)  | 
-| AD8          | JXADC3(P) / JXADC9(N)  | 
-| AD9          | JXADC4(P) / JXADC10(N) | 
+| XADC Channel | JXADC Pins              | 
+| ------------ | ----------------------- | 
+| AD1          | JXADC1(P) / JXADC7(N)   | 
+| AD0          | JXADC2(P) / JXADC8(N)   | 
+| AD8          | JXADC3(P) / JXADC9(N)   | 
+| AD9          | JXADC4(P) / JXADC10(N)  | 
   
 Requirements
 --------------
@@ -41,3 +41,4 @@ For technical support or questions, please post on the [Digilent Forum](https://
 Additional Notes
 --------------
 For more information on how this project is version controlled, refer to the [Digilent Vivado Scripts Repository](https://github.com/digilent/digilent-vivado-scripts)
+<!--- 03/12/2019(ArtVVB): Validated in Hardware in 2018.2 --->
